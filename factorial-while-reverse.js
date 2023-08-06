@@ -1,11 +1,11 @@
 function factorial(number){
+    let i = number;
     let result = 1;
-    for (let i = 1; i <= number; i++){
+    while(i >= 1){
         result = result * i;
+        i--;
     }
     return result;
 }
-const result = factorial(3);
-console.log(result);
-
-// Reverse
+const outPut =  factorial(9);
+console.log(outPut);
